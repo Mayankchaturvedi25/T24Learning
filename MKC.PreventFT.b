@@ -16,7 +16,6 @@
     IF V$FUNCTION = 'A' THEN
         IF FIELD(Input_user,'_',2) NE OPERATOR THEN
            E = 'Only ': FIELD(Input_user,'_',2):' is allowed to perform this action'
-           
         END
     END
     RETURN
